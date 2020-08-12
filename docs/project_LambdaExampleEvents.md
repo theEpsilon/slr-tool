@@ -83,29 +83,6 @@ Examples of how calls to the /project HTTP-API are passed to Lambda functions.
 }
 ```
 
-### Remove From Project
-
-> PUT /project?user=user_sub&project=project_id&method=remove
-
-```json
-{
-	"http-method": "PUT",
-	"payload": {
-		"user_id": <user_sub>,
-		"project_id": <project_id>,
-		"method": "remove",
-		"body": {
-			"searches": [
-				"<search id>"
-			],
-			"results": [
-				"<result id>"
-			]
-		}
-	}
-}
-```
-
 ## Project DELETE Example
 
 > DELETE /project?user=user_sub&project=project_id
