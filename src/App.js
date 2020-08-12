@@ -9,13 +9,12 @@ import SignUpPage from './components/pages/SignUpPage';
 import AdvancedSearch from './components/pages/AdvancedSearch';
 import Search from './components/Search';
 import Amplify from 'aws-amplify';
-import awsconfig from './aws-exports';
+import awsconfig from './aws-exports-env';
 import Project from './components/pages/Project';
 // import ProjectResult from './components/ProjectComponents/ProjectResult';
 
 import Profile from './components/pages/Profile';
 import Results from './components/pages/Results';
-
 
 Amplify.configure(awsconfig);
 
